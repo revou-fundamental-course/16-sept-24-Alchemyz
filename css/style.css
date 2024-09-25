@@ -38,7 +38,7 @@ nav a {
 }
 .nav-container {
   display: flex;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 #user {
   color: var(--bg2);
@@ -229,5 +229,16 @@ footer {
     flex-direction: column;
     width: 100%;
     padding: 4px;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-container {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
   }
 }
